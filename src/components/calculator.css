@@ -1,0 +1,46 @@
+button {
+    width: 3em;
+    height: 3em;
+    margin: .3em;
+
+    font-size: 1.5em;
+
+    border-radius: 2em;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.resultado {
+    color: white;
+    font-size: 3em;
+
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: #ff9500;
+    color: white;
+}
+
+.gray {
+    background-color: #505050;
+    color: white;
+}
